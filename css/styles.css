@@ -101,7 +101,7 @@ margin-right: 76px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #404bbf;
     padding-top: 24px;
     padding-bottom: 24px; 
     display: inline-block;
@@ -364,7 +364,12 @@ margin-bottom: 72px;
    overflow: hidden;
    cursor: pointer;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-   transform: translateY(0%);
+   
+}
+
+.portfolio-list-item:hover  {
+    transform: translateY(0%);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
 }
 
 .portfolio-item-block {
@@ -416,10 +421,7 @@ transform: translateY(100%);
 
 }
 
-.portfolio-list-item:hover  {
-    transform: translateY(0%);
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); 
-}
+
 
 /* #endregion Our portfolio */
 /* #region footer */
